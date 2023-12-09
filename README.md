@@ -14,6 +14,6 @@ Small modification of [MicrosoftProgram Install and Uninstall](https://support.m
 1. Open terminal with administrator privileges, run `"PowerShell"` shell (Use `Win+S` and search for it).
 2. Firstly run `.\list.ps1` (add argument `-a` for unfiltered list)
 3. JSON File `.\msiprogs.json` will be created.
-4. Modify it and **leave only programs you with to remove(!)**
+4. Modify it and **leave only programs you wish to remove(!)**
 5. Then run `cat -Raw .\msiprogs.json | .\remove.ps1`
 6. Wait...
